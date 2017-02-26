@@ -1,0 +1,185 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+* { margin: 0; padding:0;}
+
+body {
+	margin: 0;
+	padding: 0 0 20px;
+	color: #666;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	line-height: 20px; 
+	background-color: #771201; 
+	background-image: url(../../controller/images/background_body.jpg);
+	background-repeat: repeat-x;
+	background-position: top;
+}
+
+html{width:100%; height:100%;}
+/*body {text-align:center;}*/
+img{border:0px;}
+a {text-decoration:none;}
+p {font-size:12px; color:#000000;}
+h2 {font-size:22px; font-weight:bold; color:#900; margin:10px 20px;}
+h3 {font-size:20px; font-weight:bold;}
+h4 {font-size:18px; line-height:25px; color:#000000; font-weight:normal; margin:10px 0 8px 0;}
+h5 {font-size:15px; color:#FFF; font-weight:bold; margin-left:10px;}
+h6 {font-size:14px; color:#7D0057; font-weight:bold;}
+ol, ul { list-style-type: none;}
+span{ color:#666;}
+.clear {clear:both;}
+
+.wrapper {width: 900px; height:auto; margin: 0 auto;padding: 0 10px; background:#FFF;}
+
+/*#header*/
+.header { width:100%; height: 95px;	margin-bottom: 30px;float:left; position:relative;}
+.logo { width:195px; height:95px; float:left;}
+.header_info{width:700px;height:95px; float:left;}
+.header_info_top{float:right;margin:15px 0 0;}
+.header_info_top a:link{ text-decoration:none;}
+.header_info_top a:hover{ text-decoration:underline;}
+
+.search { width: 700px; height: 26px; padding: 7px; margin-top: 30px; }
+
+.search form { float:right; width: 274px; height: 26px; margin:15px 0 0;padding: 0;
+              background: url(../../controller/images/search_bg.jpg)}
+
+.search .txt_field { float: left; display: block; height: 16px; width: 210px; padding: 3px; margin: 1px 0; color: #666;
+	font-size: 12px; font-variant: normal;border: 1px solid #900; background: none;}
+
+.search .sub_btn {float: right; display: block;height:26px; width: 54px; cursor:pointer; border:none; background:none;}
+
+/*#header-bottom*/
+.header_bottom{ width:100%; height:40px; margin-top:20px;
+               background:url(../../controller/images/menu.jpg); float:left;position:relative;}
+.menu { width: 80%; height: 40px; float:left; position:relative;  }
+.shopping_cart{ width:20%; height: 40px; float:left; position:relative;}
+.cart{ float:right; padding-top:5px; margin-right:5px;}
+.cart img{ margin-right:3px;}
+.cart a:link{ color:#FF0; font-weight:bold; text-decoration:none;}
+.cart a:hover{ color:#FF0;font-weight:bold; text-decoration:underline;}
+.cart_info{ padding-bottom:5px;}
+
+/*#main_content*/
+.main_content{ width:100%; height:auto; background-color:#FFF; float:left;position:relative; margin:33px 0 0 0;}
+.slides{ width:890px; height:300px; border:5px solid #333; float:left; position:relative;}
+
+/*#footer*/
+.footer{ width:100%; height:auto; float:left; position:relative;}
+.brand{ width:900; height:60px; padding-top:10px; background:#FFF; float:left; position:relative;}
+.brand_logo img{ margin-left:5px; border:1px solid #999;}
+
+.menu_footer { color:#bd918a; font-size:11px; padding-left:60px;}
+.menu_footer a { color:#bd918a }
+.menu_footer p { color:#fff; font-size:14px; font-weight:700 ;}
+.menu_footer_box {width:160px; float:left; margin: 20px 20px;}
+.menu_footer_box ul a:hover{ text-decoration:underline;}
+
+/*#footer-copyright*/
+.footer_copyright { margin: 0 auto; width: 100%; height: 46px; line-height: 46px; text-align: center; color: #966a63; 
+	font-size: 11px; clear: both; background: url(../../controller/images/copyright_bg.jpg) center;
+}
+
+/*#about*/
+.showtext{ height:auto; text-align:justify; margin:0 20px;}
+.showtext h1{ margin:20px 0; color:#900;}
+
+/*#contact*/
+.contact_box {width:420px; float:left; margin: 20px 60px 20px 20px;  padding: 0;}
+.contact_box form { margin: 0px; padding: 0px; }
+
+.contact_box form .input_field { width: 180px; padding: 5px; margin-bottom: 10px; font-family: Verdana, Arial, Helvetica, sans-serif;
+	color: #666;  background: #EEEEEE; border: 1px solid #663333; }
+
+.contact_box form label { display: block; margin-bottom: 5px; }
+
+.contact_box form textarea { width: 418px; height: 130px; padding: 5px; margin-bottom: 10px;color: #666; background: #EEEEEE; 
+                            border: 1px solid #663333;}
+
+.contact_box form .submit_btn, .contact_box form .submit_btn { cursor: pointer; margin-left: 300px; padding: 6px 14px; 
+	color: #FFFFFF; background: #990000; border: 1px solid #663333;}
+.contact_box form .reset_btn, .contact_box form .reset_btn { cursor: pointer; margin:0;padding: 6px 14px; color: #FFFFFF; 
+	background: #990000; border: 1px solid #663333;}
+.contact_field {width:180px; float:left; margin: 0 60px 0 0;}
+.contact_field_left {width:180px; float:left; margin: 0}
+.contact_field_right {width:300px;  float:left; margin: 0 0 0 20px}
+
+/*#Login*/
+.login_box {width:200px; height:auto; margin: 20px auto;  padding:0 0 50px 0;}
+.login_box form .input_field { width: 180px; padding: 5px 0; margin-bottom: 10px; font-family: Verdana, Arial, Helvetica, sans-serif;
+	color: #666; text-align:center; background: #EEEEEE; border: 1px solid #663333; }
+
+.login_box form label { display: block; margin-bottom: 5px; }
+.login_box form .submit_btn { cursor: pointer; margin:10px auto; padding: 6px 14px; 
+	color: #FFFFFF; background: #990000; border: 1px solid #663333;}
+.login_field {width:180px; margin: 0 auto; text-align:center;}
+.login_field a:hover{ text-decoration:underline;}
+.header_info_top span{ color:#900; font-weight:bold;}
+
+/*#Register*/
+.register_box {width:200px; height:auto; margin: 20px auto;  padding:0 0 50px 0;}
+.register_box form .input_field { width: 180px; padding: 5px 0; margin-bottom: 10px;
+font-family: Verdana, Arial, Helvetica, sans-serif; color: #666; text-align:center; background: #EEEEEE; border: 1px solid #663333; }
+.register_box form label { display: block; margin-bottom: 5px; text-align:left; }
+.register_box form p { color:#03C; font-size:14px; }
+.register_box form .submit_btn, .register_box form .reset_btn { cursor: pointer; margin:10px auto; padding: 6px 14px; 
+	color: #FFFFFF; background: #990000; border: 1px solid #663333;}
+.register_field {width:180px; margin: 0 auto; text-align:center;}
+
+/*#Myaccount*/
+.account_box {width:500px; height:auto; margin: 20px auto;  padding:0 0 50px 0;}
+.avatar{ width:150px; height:auto; float:left; margin-right:10px;}
+.avatar img { width:140px; border:1px solid #666;}
+.account_info{ width:340px; height:auto; float:left;}
+.account_tool{ width:380px; height:auto; margin:0 auto; float:left; padding-left:20px;}
+.account_tool table{ text-align:center; margin:30px 0; padding:0 30px;}
+.account_tool a:hover{ text-decoration:underline;}
+
+/*#Logout*/
+.logout_box{width:500px; height:300px; margin: 20px auto;  padding:0 0 50px 0;}
+
+/*#Changepassword*/
+.changepassword_box {width:420px; height:auto; margin: 20px auto;  padding:0 0 50px 0;}
+.changepassword_box form .input_field { width: 180px; padding: 5px 0; margin-bottom: 10px; 
+       font-family: Verdana, Arial, Helvetica,  sans-serif;color: #666; text-align:center;
+        background: #EEEEEE; border: 1px solid #663333; }
+
+.changepassword_box form label { display: block; margin-bottom: 5px; }
+.changepassword_box form .submit_btn { cursor: pointer; margin:10px auto; padding: 6px 14px; 
+	color: #FFFFFF; background: #990000; border: 1px solid #663333;}
+.changepassword_field {width:180px; margin: 0 auto; text-align:center;}
+
+/*ChanngeInfo*/
+.change_info{ width:340px; height:auto; float:left;}
+.info_title{width:100px;}
+.info_input{width:180px; border: 1px solid #663333;}
+.submit_btn { cursor: pointer; margin:10px auto; padding: 3px 8px; 
+	color: #FFFFFF; background: #990000; border: 1px solid #663333;}
+.change_button{ text-align:center;}
+
+/*ChanngeAvatar*/
+.change_avatar{  margin-left:130px;}
+
+/*ProductsBox*/
+.products_box{ width:840px; height:auto; margin:10px auto; position:relative;}
+.products_list td{ border:1px dashed #666;}
+.products_price_title{ color:#771201; font-weight:bold;}
+.products_list_pages td{ border:1px solid #FFF; background:#771201; padding:0 5px;}
+.products_list_pages td a:link{ color:#FFF;}
+.products_list_pages td a:hover{ color:#FF0;}
+
+/*Products_details_Box*/
+.products_detail_images{ width:250px; height:auto; padding:10px;}
+.products_detail_info{ width:500px; height:auto; padding:20px;}
+
+/*Cart_list_info*/
+.cart_list { text-align:center; }
+.cart_list td{ border:1px groove #CCC; padding:0 5px;}
+.cart_list_title{ background:#CCC; color:#900; font-size:16px; font-weight:bold;}
+.cart_list_options td{text-align:center; padding: 20px;}
+.cart_list_qty{ text-align:center;}
+
+ 
+

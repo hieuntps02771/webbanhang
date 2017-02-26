@@ -1,0 +1,47 @@
+
+.menu ul{
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+
+.menu ul li{
+	position: relative;
+	display: inline;
+	float: left;
+	background:url(../../controller/images/menu_space.png) center right no-repeat
+}
+
+.menu ul li a {
+	display: block;
+	height: 40px;
+	width: 120px;
+	line-height: 40px;
+	font-size: 13px;
+	color: #fff;	
+	text-align: center;
+	text-decoration: none;
+	font-weight: 400;
+	outline: none;
+}
+
+* html .menu ul li a{ /*IE6 hack */
+display: inline-block;
+}
+.menu ul li.last { background: none }
+
+.menu ul li a.selected, .menu ul li a:hover { background: #771201;}
+
+.menu ul li ul {
+	position: absolute;
+	width: 120px;
+	margin: 2px 0 0 0;
+	background: #96200c;
+}
+
+.sub_menu { width:auto; height:auto; margin: 0 .2em; z-index:9999;}
+.menu li .sub_menu{ display: none; width:120px; height:auto; background-color:#771201; padding-bottom:1.2em; 
+                      position: absolute; left:-2px; float:left;}
+.menu li:hover .sub_menu{ display: block;}
+.drop_menu ul li a{ color:#FFF;}
+
